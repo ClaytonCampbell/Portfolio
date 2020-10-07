@@ -1,0 +1,219 @@
+body {
+    background-color: #18023e;
+    background-image: -webkit-gradient(linear, left top, right top, from(#30175a), to(#05031c)); }
+  
+  .headerWords {
+    color: floralwhite; }
+  
+  .headerFollow {
+    color: floralwhite; }
+
+  .headBar {
+    position: fixed;
+    border-radius: 5px;
+    z-index: 55; }
+  
+    .btn-primary.disabled,
+    .btn-primary:disabled {
+        color: #212529;
+        background-color: #2ec1d4;
+        border-color: #2ec1d4
+    }
+    
+    .btn-primary:not(:disabled):not(.disabled):active,
+    .btn-primary:not(:disabled):not(.disabled).active,
+    .show>.btn-primary.dropdown-toggle {
+        color: #212529;
+        background-color: #2ec1d4;
+        border-color: #2ec1d4
+    }
+    
+    .btn-primary:not(:disabled):not(.disabled):active:focus,
+    .btn-primary:not(:disabled):not(.disabled).active:focus,
+    .show>.btn-primary.dropdown-toggle:focus {
+        box-shadow: 0 0 0 .2rem rgba(91, 194, 194, 0.5)
+    }
+    
+    .btn-outline-primary {
+        color: #2ec1d4;
+        background-color: transparent;
+        background-image: none;
+        border-color: #2ec1d4
+    }
+    
+    .btn-outline-primary:hover {
+        color: #222;
+        background-color: #2ec1d4;
+        border-color: #2ec1d4
+    }
+    
+    .btn-outline-primary:focus,
+    .btn-outline-primary.focus {
+        box-shadow: 0 0 0 .2rem rgba(119, 204, 204, 0.5)
+    }
+    
+    .btn-outline-primary.disabled,
+    .btn-outline-primary:disabled {
+        color: #2ec1d4;
+        background-color: transparent
+    }
+    
+    .btn-outline-primary:not(:disabled):not(.disabled):active,
+    .btn-outline-primary:not(:disabled):not(.disabled).active,
+    .show>.btn-outline-primary.dropdown-toggle {
+        color: #212529;
+        background-color: #2ec1d4;
+        border-color: #2ec1d4
+    }
+    
+    .btn-outline-primary:not(:disabled):not(.disabled):active:focus,
+    .btn-outline-primary:not(:disabled):not(.disabled).active:focus,
+    .show>.btn-outline-primary.dropdown-toggle:focus {
+        box-shadow: 0 0 0 .2rem rgba(119, 204, 204, 0.5)
+    }
+
+  
+  .jumbotron {
+    background: url("../assets/stars.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: 450px;
+    padding-top: 5em;
+    padding-bottom: 5em;
+    background-position: center top;
+    background-size: auto;
+    border-bottom: solid 5px black }
+  
+  .jumbotron .container {
+    padding-top: 75px; }
+  
+  .headerWords {
+    color: floralwhite;
+    font-weight: 550; }
+  
+  .headerFollow {
+    color: floralwhite;
+    font-weight: 250; }
+  
+  
+  .caption {
+    color: #cfcbc1; }
+  
+  .pic {
+    padding: 0px;
+    text-align: center;
+    margin: auto;
+    border-radius: 70%;
+    width: 100%;
+    border: black 4px solid;
+    height: 10em;
+    width: 10em; }
+    .pic:hover{
+        opacity: 90%;
+    }
+  .textgreen {
+    color: #2ec1d4;
+  }
+  #creature {
+    border: black 4px solid;
+  }
+  .projtwo{
+    margin: 1em 0 2em 0;
+  }
+  .projthree{
+    padding: 1em 0 0 0;
+  }
+  @media only screen and (min-width: 768px){
+    .left-div{
+      max-width: 50%;
+      flex: 0 0 40%
+    }
+    .center-div{
+      max-width: 20%;
+    }
+    .right-div{
+      max-width: 50%;
+      flex: 0 0 40%;
+    }
+  
+  }
+  .aboutStyle {
+    height: 15em; }
+  
+  .lead {
+    margin-bottom: 7em; }
+  
+  #campbellPic {
+    margin: 50px 0 0 0;
+    height: 240.6px;
+    width: 224.4px;
+    border: 4px black solid;
+    border-radius: 1em;
+    box-shadow: 3px 2px #2ec1d4; }
+    #resume {
+      margin: 50px 0 0 0;
+    height: 240.6px;
+    width: 224.4px;
+    }
+  
+  .contactInfo{
+    margin: 2em 0 2em 0;
+  }
+  .textMail{
+    margin-left: 6em;
+  }
+  .selfPic{
+    margin-left: -6em;
+  }
+  .about {
+    color: white;
+    margin-bottom: 20em; }
+  
+  .aboutTwo {
+    color: white; }
+  
+  .aboutMargin {
+    margin-top: 10em; }
+  
+  .aboutMarg {
+    margin: 1em 0 2em 2.5em; }
+  
+  .line {
+    text-decoration: underline; }
+  
+  #selfName{
+    margin-right: -4.5em;
+  }
+  #selfResume{
+    margin-right: -4em;
+    margin-left: 4em
+  }
+  @media only screen and (min-width: 1000px){
+    #campbellPic {
+    margin: 50px 0 0 0;
+    }
+    #selfName{
+      margin-left: 3em;
+    }
+    .textMail{
+    margin-left: 1.5em;
+  }
+  .selfPic{
+    margin-left: 0;
+  }
+  .resumeMail {
+    margin-left: -1.5em
+  }
+  }
+  .footBar {
+    color: lightcyan; }
+  
+  .footNote {
+    background-color: rgba(0, 0, 0, 0.884); }
+  
+  .footimage{
+    width: 3em;
+    height: 3em;
+  }
+  
