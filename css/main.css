@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 body {
     background-color: #18023e;
     background-image: -webkit-gradient(linear, left top, right top, from(#30175a), to(#05031c)); }
@@ -12,13 +15,15 @@ body {
     position: fixed;
     border-radius: 5px;
     z-index: 55; }
-  
-    .btn-primary.disabled,
-    .btn-primary:disabled {
+
+.splitup {
+height: 10em;
+}
+  .btn-primary.disabled,
+  .btn-primary:disabled {
         color: #212529;
         background-color: #2ec1d4;
-        border-color: #2ec1d4
-    }
+        border-color: #2ec1d4 }
     
     .btn-primary:not(:disabled):not(.disabled):active,
     .btn-primary:not(:disabled):not(.disabled).active,
@@ -110,7 +115,7 @@ body {
     height: 10em;
     width: 10em; }
     .pic:hover{
-        opacity: 90%;
+        opacity: 50%;
     }
   .textgreen {
     color: #2ec1d4;
